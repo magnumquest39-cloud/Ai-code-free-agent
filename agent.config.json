@@ -1,0 +1,8 @@
+{
+  "model": "phi-3-mini-4k-instruct.Q4_K_M.gguf",
+  "models_dir": "./models",
+  "n_ctx": 2048,
+  "n_threads": 4,
+  "n_gpu_layers": 0,
+  "description": "Local AI agent project configuration"
+}
