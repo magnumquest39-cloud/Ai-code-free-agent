@@ -1,0 +1,29 @@
+# Example project configuration (YAML format)
+# Copy to agent.config.yaml and modify as needed
+# Note: Currently only JSON is supported (agent.config.json)
+# This is for reference and future YAML support
+
+# Model selection
+model: phi-3-mini-4k-instruct.Q4_K_M.gguf
+
+# Local models directory
+models_dir: ./models
+
+# Inference parameters
+# Context window size in tokens (max sequence length)
+n_ctx: 2048
+
+# Number of CPU threads for inference
+# Set to your CPU core count for best performance
+n_threads: 4
+
+# Number of layers to offload to GPU (CUDA)
+# 0 = CPU only (default)
+# Set to higher values if you have CUDA: try 10-20
+n_gpu_layers: 0
+
+# Optional: fine-tuning parameters
+temperature: 0.2      # 0.0 = deterministic, 1.0 = creative
+max_tokens: 512       # Maximum response length
+top_k: 40            # Top-k sampling
+top_p: 0.9           # Top-p (nucleus) sampling
