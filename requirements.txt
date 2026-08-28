@@ -4,3 +4,37 @@ llama-cpp-python>=0.2.0
 # Hugging Face Hub integration (for downloading models)
 huggingface-hub>=0.19.0
 
+# Google AI Studio & Gemini API
+google-generativeai>=0.3.0
+
+# Anthropic Claude API (with free tier)
+anthropic>=0.7.0
+
+# OpenRouter API (aggregates multiple free models)
+openrouter>=0.1.0
+
+# Ollama API client (local open-source models)
+requests>=2.31.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Testing frameworks
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.1
+
+# Code quality & linting
+black>=23.9.0
+ruff>=0.0.290
+mypy>=1.5.0
+
+# Async HTTP client
+aiohttp>=3.9.0
+
+# Configuration validation
+pydantic>=2.0.0
+
+# Logging & monitoring
+python-json-logger>=2.0.7
